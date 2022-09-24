@@ -1,6 +1,12 @@
+h1{
+    color:aliceblue;
+}
 body {
-    color: #333333;
-    font-family: arial;
+    background-image: url("../img/sky.png") ;
+    background-size: 100% 100%;
+    color: slategrey;
+    font-size: 25px;
+    font-family: Cursive;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
@@ -15,7 +21,6 @@ body {
 
 footer {
     color: #888888;
-    border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -31,9 +36,17 @@ h1 {
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 2%;
+    opacity: 50%;
+    font-size: 18px;
+    color: darkslategrey;
+    margin-right: 35px;
     text-decoration: none;
+    font-style: bold;
+
+
 }
 
 .portrait {
@@ -41,15 +54,23 @@ header a {
 }
 
 input{
-    border: 1px solid #cccc;
+    font-family: Cursive;
+    font-size: 16px;
+    color: #555555;
+    opacity: 80%;
+    border: 1px solid #888888;
     padding: 8px;
+    border-radius: 4px;
 }
 
 button{
+    font-size: 16px;
+    opacity: 70%;
+    font-family: Cursive;
     cursor: pointer;
     border: 1px solid #888888;
     background: #eeeeee;
-    color: #888888;
+    color: #555555;
     padding: 8px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
