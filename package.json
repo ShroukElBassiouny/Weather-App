@@ -1,6 +1,12 @@
 {
   "name": "web-server",
   "version": "1.0.0",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "vercel-sapper"
+    }
+  ],
   "description": "",
   "main": "app.js",
   "engines": {
@@ -16,6 +22,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   }
 }
