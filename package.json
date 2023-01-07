@@ -10,8 +10,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js ",
-    "build": "npm i"
+    "start": "node app.js "
   },
   "keywords": [],
   "author": "",
