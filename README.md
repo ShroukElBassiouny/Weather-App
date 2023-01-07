@@ -1,7 +1,7 @@
 ﻿# Weather App 
 Full stack application for weather.Users choose any country and display the weather status on it.
 ## Tools:
-Weather app uses several tools to work properly::
+Weather app uses several tools to work properly:
 - Express node.js web application framework
 - Third party: 
   - weatherstack for getting weather
